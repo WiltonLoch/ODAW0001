@@ -39,7 +39,7 @@
 		<br><br><br><br><h2>Logar</h2>
 		<form name = "login" method = "POST" action = "<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 			<span class = "error"><?php echo $erro_login;?></span><br>
-			Login: <input type = "text" name = "login"><br>
+			Login: <input type = "text" name = "login"><br><br>
 			Senha: <input type = "password" name = "senha"><br>
 			<br><input type = "submit" value = "Logar">
 		</form>
